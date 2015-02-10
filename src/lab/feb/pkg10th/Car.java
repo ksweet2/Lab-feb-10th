@@ -11,13 +11,18 @@ package lab.feb.pkg10th;
  */
 public class Car extends Vehicle {
 
+    public Car(String drive) {
+        super(drive);
+    }
+
     @Override
-    public void drive() {
+    public void makeNoise() {
         System.out.println("wahhhhhh");
    }
     @Override
     public void getGas() {
-        
+        System.out.println("Filled up with premium fuel.");
     }
+    
     
 }
